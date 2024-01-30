@@ -35,3 +35,18 @@ floatNumbers = 123.45
 print(type(words))
 print(type(numbers))
 print(type(floatNumbers))
+
+#_______________________________________________________________
+#Here's another situation that shows you how to convert a variable type ==> str(), int(), float()
+# Definition of savings and total_savings
+savings = 100
+total_savings = 150
+
+# Fixing the printout by converting total_savings and savings to a string
+print("I started with $" + str(savings) + " and now have $" + str(total_savings) + ". Awesome!")
+
+# Definition of pi_string
+pi_string = "3.1415926"
+
+# Convert pi_string into float: pi_float
+pi_float = float(pi_string)
