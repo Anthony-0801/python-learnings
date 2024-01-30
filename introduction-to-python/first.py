@@ -10,6 +10,7 @@ print(4 / 2)
 savings = 100
 print(savings)
 
+#_______________________________________________________________
 #Here's a situation
 # Create the variables monthly_savings and num_months
 monthly_savings = 10
@@ -24,3 +25,13 @@ total_savings = new_savings + savings
 
 # Print total_savings
 print("Your total savings are: ", total_savings)
+
+#_______________________________________________________________
+#Here's another situation that tells you how to show the type of a variable
+words = "Hello World"
+numbers = 12345
+floatNumbers = 123.45
+
+print(type(words))
+print(type(numbers))
+print(type(floatNumbers))
