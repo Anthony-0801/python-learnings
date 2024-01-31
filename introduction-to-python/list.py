@@ -10,10 +10,24 @@ bath = 9.50
 areas = [hall, kit, liv, bed, bath]
 
 # Print areas
+print("Printing the list areas:")
 print(areas)
 
 #_______________________________________________________________________________
 # Print the list with different types of elements
 areas = ["hallway", hall, "kitchen", kit, "living room", liv, "bedroom", bed, "bathroom", bath]
 print("\n")
+print("Printing the list areas with different types of elements:")
 print(areas)
+
+#_______________________________________________________________________________
+#Printing the list with list
+areas = [["hallway", hall],
+         ["kitchen", kit],
+         ["living room", liv],
+         ["bedroom", bed],
+         ["bathroom", bath]]
+print("\n")
+print("Printing the list areas with list:")
+print(areas)
+print(type(areas))
