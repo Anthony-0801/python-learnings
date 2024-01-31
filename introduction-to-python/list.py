@@ -69,3 +69,29 @@ print("\n")
 print("Printing the list upstairs:")
 print(upstairs)
 
+#_______________________________________________________________________________
+# Manipulating lists
+# Change "bathroom" to "chill zone"
+areas[-1] = "chill zone"
+print("\n")
+print("Printing the list areas after changing bathroom to chill zone:")
+print(areas)
+
+# Extend the list areas with poolhouse and garage
+areas_1 = areas + ["poolhouse", 24.5]
+areas_1 = areas_1 + ["garage", 15.45]
+print("\n")
+print("Printing the list areas after extending with poolhouse and garage:")
+print(areas_1)
+
+# Replace the 15.45 in areas_1 with 16.45
+areas_1[8] = 16.45
+print("\n")
+print("Printing the list areas after replacing 15.45 with 16.45:")
+print(areas_1)
+
+# Remove the last two elements from areas_1
+areas_1[-2:] = []
+print("\n")
+print("Printing the list areas after removing the last two elements:")
+print(areas_1)
