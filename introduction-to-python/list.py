@@ -13,3 +13,7 @@ areas = [hall, kit, liv, bed, bath]
 print(areas)
 
 #_______________________________________________________________________________
+# Print the list with different types of elements
+areas = ["hallway", hall, "kitchen", kit, "living room", liv, "bedroom", bed, "bathroom", bath]
+print("\n")
+print(areas)
