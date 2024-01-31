@@ -54,3 +54,18 @@ eat_sleep_area = areas[1][1] + areas[3][1]
 print("\n")
 print("Printing the sum of kitchen and bedroom area:")
 print(eat_sleep_area)
+
+#_______________________________________________________________________________
+# Slicing and dicing
+# Use slicing to create downstairs
+downstairs = areas[:6]
+print("\n")
+print("Printing the list downstairs:")
+print(downstairs)
+
+# Use slicing to create upstairs
+upstairs = areas[6:]
+print("\n")
+print("Printing the list upstairs:")
+print(upstairs)
+
