@@ -8,7 +8,7 @@ print(4 / 2)
 
 #Creating a variable
 savings = 100
-print(savings)
+print("Your savings are: ", savings)
 
 #_______________________________________________________________
 #Here's a situation
@@ -24,6 +24,7 @@ new_savings = monthly_savings * num_months
 total_savings = new_savings + savings
 
 # Print total_savings
+print("\n")
 print("Your total savings are: ", total_savings)
 
 #_______________________________________________________________
@@ -32,6 +33,8 @@ words = "Hello World"
 numbers = 12345
 floatNumbers = 123.45
 
+print("\n")
+print("The data types of the variables, words, numbers and floatNumbers are: ")
 print(type(words))
 print(type(numbers))
 print(type(floatNumbers))
@@ -41,6 +44,7 @@ print(type(floatNumbers))
 # Definition of savings and total_savings
 savings = 100
 total_savings = 150
+print("\n")
 
 # Fixing the printout by converting total_savings and savings to a string
 print("I started with $" + str(savings) + " and now have $" + str(total_savings) + ". Awesome!")
