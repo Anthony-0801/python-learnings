@@ -31,3 +31,26 @@ print("\n")
 print("Printing the list areas with list:")
 print(areas)
 print(type(areas))
+
+#_______________________________________________________________________________
+# Subsetting lists
+# Print out second element from areas
+print("\n")
+print("Printing the second element from areas:")
+print(areas[1])
+
+# Print out last element from areas
+print("\n")
+print("Printing the last element from areas:")
+print(areas[-1])
+
+# Print out the area of the living room
+print("\n")
+print("Printing the area of the living room:")
+print(areas[2][1])
+
+#Sum of kitchen and bedroom area: eat_sleep_area
+eat_sleep_area = areas[1][1] + areas[3][1]
+print("\n")
+print("Printing the sum of kitchen and bedroom area:")
+print(eat_sleep_area)
