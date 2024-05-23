@@ -17,3 +17,16 @@ elif total_cost < total_profit:
   print("Profit")
 elif total_cost == total_profit:
   print("Broke Even")
+
+# Determine if you can give your siblings an even amount of popsicles or not. If you can give even amounts, print "give away", if not print "eat them yourself"
+
+siblings = int(input())
+popsicles = int(input())
+
+if popsicles % 2 == 0:
+  print("eat them yourself")
+elif siblings > popsicles:
+  print("eat them yourself")
+else:
+  print("give away")
+
